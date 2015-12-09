@@ -1,6 +1,6 @@
 #!/bin/ash
 
-set -eux
+set -eu
 
 [[ $# == 2 ]] || echo "Usage: forward-port.sh <src> <dst>"
 src=$1
